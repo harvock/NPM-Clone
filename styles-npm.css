@@ -1,0 +1,217 @@
+* {
+  font-family: 'Source Sans Pro', 'Lucida Grande', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* classes do NAV */
+nav {
+  background-color: #c12127;
+  color: rgba(255, 255, 255, 0.8);
+  padding-top: 15px;
+  height: 35px;
+  text-decoration: none;
+}
+
+.top-links {
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+  text-decoration: none;
+  color: white;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+/* classes do HEADER */
+.npm-logo {
+  margin: auto;
+  padding: 10px;
+  width: 7%;
+  float: left;
+}
+
+.header {
+  background-image: url(images/city-scape.svg);
+  color: white;
+}
+
+.header-body {
+  padding: 100px;
+  width: auto;
+}
+
+.header-body-text {
+  text-align: left;
+  width: 40%;
+  padding-left: inherit;
+}
+
+.header-button {
+  border: none;
+  border-radius: 25px;
+  background: orange;
+  color: white;
+  padding: 8px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.h1-header {
+  padding-bottom: 15px;
+}
+
+.p-width {
+  padding-bottom: 15px;
+}
+
+.header-searchbar {
+  margin: auto;
+  width: 80%;
+  border: 1px;
+  padding: 10px;
+  height: 20px;
+  border-radius: 5px;
+  outline: none;
+  color: white;
+  background-color: rgb(31, 82, 111);
+  float: left;
+}
+
+.header-bear {
+  float: right;
+  width: 50px;
+}
+
+/* classes do COLLABORATION */
+.collab-central {
+  background: darkslategray;
+  color: white;
+  margin: 0 auto;
+  padding: 100px;
+}
+
+.collab-img-float {
+  float: left;
+  text-align: center;
+  width: 50%;
+}
+
+.collab-text-position {
+  width: 50%;
+  float: right;
+  padding-top: 50px;
+}
+
+.collab-img-position {
+  width: 400px;
+}
+
+.h2-collab {
+  width: 600px;
+  padding-bottom: 10px;
+}
+
+.collab-button {
+  border: none;
+  border-radius: 25px;
+  background: red;
+  color: white;
+  padding: 8px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+}
+
+li {
+  padding: 5px;
+}
+
+/* classes do WHAT IS NPM */
+.whatis-central {
+  margin: 0 auto;
+}
+
+.whatis-central-left {
+  margin: 0 200px;
+  width: 50%;
+  overflow: hidden;
+  padding-top: 150px;
+  color: white;
+}
+
+#whatIsNpm {
+  background-image: url("images/forklift.svg");
+  height: 400px;
+}
+
+.whatis-background {
+  background-image: 100%;
+}
+
+.whatis-body {
+  padding: 100px;
+  background-image: cover;
+}
+
+.whatis-text-body {
+  width: 450px;
+  float: left;
+  padding-bottom: 10px;
+}
+
+.whatis-h2 {
+  width: 450px;
+  float: left;
+  padding-bottom: 10px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.whatis-button {
+  border: none;
+  border-radius: 25px;
+  background: grey;
+  color: white;
+  padding: 8px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  float: left;
+}
+
+/* classes do BLOCKS */
+.blocks-body {
+  padding: 100px;
+}
+
+.blocks-header {
+  text-align: center;
+}
+
+.blocks-center {
+  width: 30%;
+  padding: 20px;
+  text-align: center;
+}
+
+.blocks-display {
+  float: left;
+}
+
